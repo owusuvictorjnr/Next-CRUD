@@ -1,3 +1,4 @@
+import Form from '@/components/Form';
 import Table from '@/components/Table';
 import Head from 'next/head';
 import { BiUserPlus } from 'react-icons/bi';
@@ -26,6 +27,11 @@ export default function Home() {
                 </span>
               </button>
             </div>
+          </div>
+
+          {/*collapsable form*/}
+          <div className="container mx-auto ">
+            <Form />
           </div>
 
           {/*Table*/}
