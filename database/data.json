@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "avatar": "",
+    "email": "johndoe@gmail.com",
+    "salary": "10000",
+    "date": "2023-01-03",
+    "status": "active"
+  },
+
+  {
+    "id": 2,
+    "name": "vitech solutions",
+    "avatar": "",
+    "email": "vitechsolutions@gmail.com",
+    "salary": "10000",
+    "date": "2023-01-03",
+    "status": "inctive"
+  },
+
+  {
+    "id": 3,
+    "name": "ken abbey",
+    "avatar": "",
+    "email": "abbey123@gmail.com",
+    "salary": "13000",
+    "date": "2023-01-03",
+    "status": "inactive"
+  },
+
+  {
+    "id": 4,
+    "name": "John Doe",
+    "avatar": "",
+    "email": "johndoe@gmail.com",
+    "salary": "10000",
+    "date": "2023-01-03",
+    "status": "inactive"
+  },
+
+  {
+    "id": 5,
+    "name": "John mensah",
+    "avatar": "",
+    "email": "johnmensah52@gmail.com",
+    "salary": "200",
+    "date": "2023-01-03",
+    "status": "active"
+  },
+
+  {
+    "id": 6,
+    "name": "alice kwei",
+    "avatar": "",
+    "email": "aakwei@gmail.com",
+    "salary": "1000",
+    "date": "2023-01-03",
+    "status": "inactive"
+  },
+
+  {
+    "id": 7,
+    "name": "twum asante",
+    "avatar": "",
+    "email": "tasante@gmail.com",
+    "salary": "500",
+    "date": "2023-01-03",
+    "status": "active"
+  },
+
+  {
+    "id": 8,
+    "name": "bridget Doe",
+    "avatar": "",
+    "email": "yaabae@gmail.com",
+    "salary": "250000",
+    "date": "2023-01-03",
+    "status": "inactive"
+  },
+
+  {
+    "id": 9,
+    "name": "kumi isaac",
+    "avatar": "",
+    "email": "isaack@gmail.com",
+    "salary": "40000",
+    "date": "2023-01-03",
+    "status": "active"
+  },
+
+  {
+    "id": 10,
+    "name": "sammy gyemfi",
+    "avatar": "",
+    "email": "sammyg@gmail.com",
+    "salary": "5000",
+    "date": "2023-01-03",
+    "status": "active"
+  }
+]
