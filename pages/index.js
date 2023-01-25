@@ -1,9 +1,20 @@
 import Form from '@/components/Form';
 import Table from '@/components/Table';
 import Head from 'next/head';
+import { useState } from 'react';
 import { BiUserPlus } from 'react-icons/bi';
 
 export default function Home() {
+  const [visible, setVisible] = useState(false);
+
+  const handler = () => {
+    {
+      /*toggling add employee button*/
+    }
+    // setVisible(visible ? false : true);
+    setVisible(!visible);
+  };
+
   return (
     <>
       <section>
@@ -18,9 +29,10 @@ export default function Home() {
             employee management system
           </h1>
 
+          {/*add employee handler*/}
           <div className="container mx-auto flex justify-between py-5 border-b">
             <div className="left flex gap-3">
-              <button type="" className="empl_button">
+              <button onClick={handler} type="" className="empl_button">
                 add employee{' '}
                 <span className="px-1">
                   <BiUserPlus size={23} />
@@ -30,9 +42,7 @@ export default function Home() {
           </div>
 
           {/*collapsable form*/}
-          <div className="container mx-auto ">
-            <Form />
-          </div>
+          {visible ? <Form /> : ''}
 
           {/*Table*/}
           <div className="container mx-auto">
