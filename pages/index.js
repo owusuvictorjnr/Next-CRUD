@@ -1,3 +1,4 @@
+import Table from '@/components/Table';
 import Head from 'next/head';
 import { BiUserPlus } from 'react-icons/bi';
 
@@ -25,6 +26,11 @@ export default function Home() {
                 </span>
               </button>
             </div>
+          </div>
+
+          {/*Table*/}
+          <div className="container mx-auto">
+            <Table />
           </div>
         </main>
       </section>
