@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* > * {
+  font-family: 'Poppins', sans-serif;
+}
+
+.empl_button {
+  @apply flex bg-indigo-500 text-white px-4 py-2 border rounded-md
+    hover:bg-gray-50 hover:border-indigo-500 hover:text-gray-800 capitalize;
+}
